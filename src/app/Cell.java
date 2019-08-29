@@ -22,8 +22,8 @@ abstract class Cell extends Rectangle {
             Font f = new Font("Times New Roman", Font.BOLD, 24);
             g.setFont(f);
             g.drawString("Animal: " + animal, 742, 235);
-            g.drawString("Habitat: " + habitat, 742, 280);
-            g.drawString("Movement cost: " + movementCost, 742, 325);
+            g.drawString("Habitat: " + habitat, 742, 360);
+            g.drawString("Movement cost: " + movementCost, 742, 485);
         }
     }
 
