@@ -2,13 +2,13 @@ package app;
 
 import java.awt.*;
 
-class Water extends Cell {
+public class Water extends Habitat {
 
     public Water(int x, int y) {
         super(x, y);
-        this.color = new Color(0, 0, 255);
+        this.color = Color.BLUE;
         this.animal = "Fish";
-        this.habitat = "Water";
+        this.type = "Water";
         this.movementCost = 100;
     }
     

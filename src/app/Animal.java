@@ -4,9 +4,9 @@ import java.awt.*;
 import java.util.List;
 import java.util.ArrayList;
 
-abstract class Animal {
+public abstract class Animal {
     
-    Cell location;
+    Habitat location;
     Color color;
     List<Polygon> polygons = new ArrayList<Polygon>();
 

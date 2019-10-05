@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Rabbit extends Animal {
 
-    public Rabbit(Cell location) {
+    public Rabbit(Habitat location) {
         this.location = location;
         this.color = Color.WHITE;
         Polygon ear1 = new Polygon();

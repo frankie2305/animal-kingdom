@@ -7,16 +7,16 @@ class Main extends JFrame {
     
     class App extends JPanel {
 
-        Grid grid;
+        Jungle jungle;
 
         public App() {
             setPreferredSize(new Dimension(960, 720));
-            grid = new Grid();
+            jungle = new Jungle();
         }
 
         @Override
         public void paint(Graphics g) {
-            grid.paint(g, getMousePosition());
+            jungle.paint(g, getMousePosition());
         }
 
     }

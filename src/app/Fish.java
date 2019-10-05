@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Fish extends Animal {
 
-    public Fish(Cell location) {
+    public Fish(Habitat location) {
         this.location = location;
         this.color = Color.YELLOW;
         Polygon body = new Polygon();

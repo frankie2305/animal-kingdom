@@ -2,9 +2,9 @@ package app;
 
 import java.awt.*;
 
-public class Puppy extends Animal {
+public class Jackal extends Animal {
 
-    public Puppy(Cell location) {
+    public Jackal(Habitat location) {
         this.location = location;
         this.color = Color.GREEN;
         Polygon ear1 = new Polygon();
